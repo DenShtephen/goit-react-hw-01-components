@@ -1,17 +1,17 @@
 import PropTypes from 'prop-types';
-import { Card } from './Friends.styled';
+import { Card, FriendsList } from './Friends.styled';
 
 const FriendListItem = ({ id, avatar, name, isOnline }) => {
   const statusColor = isOnline ? 'green' : 'red';
 
   return (
-    <li key={id}>
-      <span style={{ backgroundColor: statusColor }}>
+    <FriendsList key={id}>
+      <span style={{ color: statusColor }}>
         {isOnline ? 'Online' : 'Offline'}
       </span>
       <img src={avatar} alt="User avatar" width="48" />
       <p>{name}</p>
-    </li>
+    </FriendsList>
   );
 };
 

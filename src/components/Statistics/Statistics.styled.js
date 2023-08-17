@@ -7,7 +7,7 @@ export const Card = styled.div`
   border-radius: ${({ theme }) => theme.spacing(4)};
   background-color: ${({ theme }) => theme.colors.grey};
   width: ${({ theme }) => theme.spacing(120)};
-  height: 100px;
+  height: 150px;
 
   margin-bottom: 50px;
 `;
@@ -16,6 +16,8 @@ export const StatisticsHeader = styled.h2`
   font-size: ${({ theme }) => theme.fontSizes.large};
   text-align: center;
   margin-bottom: 10px;
+
+  margin-top: 20px;
 `;
 
 export const StatisticsList = styled.ul`
