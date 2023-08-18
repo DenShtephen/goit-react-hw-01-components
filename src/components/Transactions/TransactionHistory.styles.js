@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Card = styled.div`
+export const Card = styled.table`
   overflow: hidden;
   margin: 0 auto;
   box-shadow: ${({ theme: { shadows } }) => shadows.regular};
@@ -19,8 +19,4 @@ export const Card = styled.div`
     border: 1px solid black;
     font-size: 16px;
   }
-`;
-
-export const CardHistory = styled.div`
-  margin: 0 auto;
 `;
