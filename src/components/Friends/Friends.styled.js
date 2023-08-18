@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Card = styled.div`
+export const CardList = styled.ul`
   margin: 0 auto;
   box-shadow: ${({ theme: { shadows } }) => shadows.regular};
   border-radius: ${({ theme }) => theme.spacing(4)};
@@ -9,7 +9,7 @@ export const Card = styled.div`
   height: 500px;
 `;
 
-export const FriendsList = styled.li`
+export const FriendsItem = styled.li`
   margin: 0 auto;
   margin-bottom: 65px;
   gap: 20px;
