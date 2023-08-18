@@ -29,6 +29,8 @@ export const CardPoster = styled.img`
   object-fit: cover;
   border-radius: 80%;
   margin-bottom: 10px;
+
+  border: 1px solid black;
 `;
 
 export const CardSocials = styled.ul`
